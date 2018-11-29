@@ -10,3 +10,10 @@
 body{
   background-color:orange;
 }
+#result{
+  border:2px solid red;
+  margin-top:10px;
+  font-size:20px;
+  width:20%;
+  Padding-top:1px;
+}
