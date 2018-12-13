@@ -22,9 +22,5 @@ $("#shoot").click(function(){
     }else if (randomNumber === 3){
     $("#computerChoice").html("Scissors"); 
     }
-    if (computerChoice === 'Paper' && userChoice === 'Paper' || 
-        computerChoice === 'Rock' && userChoice === 'Rock' ||
-        computerChoice === 'Scissors' && userChoice === 'Scissors' ){
-        $("input").html("Draw");
-    }
+    
 });
